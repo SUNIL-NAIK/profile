@@ -6,6 +6,7 @@
     font-family: 'Driod Serif';
     border-radius: 0.5%;
     color: #2f2f2f;
+    overflow-y: auto;
 
 }
 .header{
@@ -31,7 +32,7 @@
     word-spacing: -.25em;
     display: flex;
     flex-direction: row;
-    margin: 40px 2% 0 2%;
+    margin: 30px 1% 0 2%;
     text-align:inherit;
 }
 
@@ -46,23 +47,27 @@
     margin-left: calc(2%);
 
 }
-.colo > h1, .para {
+.colo > .para , block {
     color: #2f2f2f;
-    margin-left: 20px;
+    margin-left: 30px;
 
 }
 .para {
     font-family: 'Playfair Display', serif;
     color: #2f2f2f;
-    max-height: 60vh;
     overflow-y: auto;
     word-break: break-all; /* This will allow long words to break */
+}
+block{
+    font-size: 18px;
+    color: #2f2f2f;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
 
 
 .colo + .colo{
     border-left: 1px solid #2f2f2f;
-
 }
 .colo .headline{
     text-align: center;
