@@ -23,7 +23,7 @@ const Ruler = () => {
           <h3>Saiganesh7989@gmail.com</h3>
           <div className="Social">
           <div className="Github">
-              <a href="https://www.github.com/Nani-7989">
+              <a href="https://www.github.com/gani-23">
                 <img
                   className="Image-1"
                   src="https://icon-library.com/images/github-icon-white/github-icon-white-2.jpg"
