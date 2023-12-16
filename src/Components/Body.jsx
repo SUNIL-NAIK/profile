@@ -27,6 +27,7 @@ const JustFun = () => {
         <div className="Greetings">
           <h1>Hola amigo,</h1>
           <h2>You are welcome here.</h2>
+          <h1>Changes made by sunil</h1>
         </div>
       </div>
     </React.Fragment>
